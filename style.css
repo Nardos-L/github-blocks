@@ -1,0 +1,49 @@
+.container {
+    width: 960px;  
+    background-color: silver;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(83, 91, 117);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.top-nav {
+    width: 920px;
+    height:250px ;
+    background-color: teal; 
+    justify-content: space-between; 
+}
+
+.top-nav,.mid-nav, .bottom-nav {
+    display: flex;
+    align-items: center;
+    
+    padding-right: 35px;   
+}
+
+.mid-nav {
+    width: 920px;
+    height:250px ;
+    background-color: violet;
+    justify-content: space-evenly;   
+}
+
+.bottom-nav {
+    width: 920px;
+    height:250px ;
+    background-color: white;
+    justify-content: space-between;
+} 
+
+img {
+    width: 200px;
+    height: 200px;   
+}
+.top-nav img {
+    margin-left: 20px;
+}
+
