@@ -2,6 +2,9 @@
     width: 960px;  
     background-color: silver;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -22,8 +25,7 @@ h1 {
 .top-nav,.mid-nav, .bottom-nav {
     display: flex;
     align-items: center;  
-    padding-right: 35px;
-    padding-left: 20px;   
+    padding: 0px 25px;      
 }
 
 .mid-nav {
@@ -43,9 +45,8 @@ h1 {
 
 img {
     width: 200px;
-    height: 200px;   
+    height: 200px;
 }
-.top-nav img {
-    margin-left: 20px;
-}
+
+
 
