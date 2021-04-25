@@ -29,7 +29,8 @@ h1 {
     width: 920px;
     height:250px ;
     background-color: violet;
-    justify-content: space-evenly;   
+    justify-content: space-evenly; 
+    margin: 20px 0px 20px 0px;  
 }
 
 .bottom-nav {
